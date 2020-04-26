@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  if (number < 1)
+  if (number > 0)
     ('1' * number) !~ /^1?$|^(11+?)\1+$/
   else
     return false
