@@ -3,4 +3,4 @@ def prime?(number)
   ('1' * number) !~ /^1?$|^(11+?)\1+$/
 end
 
-prime?(2)
+puts prime?(2)
