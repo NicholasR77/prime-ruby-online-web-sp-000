@@ -1,6 +1,10 @@
 # Add  code here!
 def prime?(number)
-  ('1' * number) !~ /^1?$|^(11+?)\1+$/
+  if (number < 1)
+    ('1' * number) !~ /^1?$|^(11+?)\1+$/
+  else
+    return false
+  end
 end
 
 puts prime?(4)
